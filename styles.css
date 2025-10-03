@@ -70,3 +70,19 @@ main {
   width: 100%;
   height: 2.5rem;
 }
+
+.about {
+	justify-content: center;
+}
+.about-text{
+	width: 800px;
+	padding: 15px;
+	margin: 20px auto;
+	border: 2px solid #333;
+	border-radius: 5px;
+	box-shadow: 4px 5px 13px rgba(0,2,5,0.3);
+	word-wrap: break-word
+}
+.about-image{
+	scale: 0.5;
+}
