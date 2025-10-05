@@ -83,6 +83,47 @@ main {
 	box-shadow: 4px 5px 13px rgba(0,2,5,0.3);
 	word-wrap: break-word
 }
-.about-image{
-	scale: 0.5;
+.Home-Grid {
+	margin: 30px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax( 450px,1fr));
+	overflow: hidden;
+	gap: 10px;
+	max-width: 100vw;
+	}
+.Home-Grid-Ele {
+	max-width: 650px;
+	border: 2px solid #333;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px rgba(0,0,4,8.3);
+	padding: 15px;
+	overflow: hidden;
+	background-color: rgba(128,128,128,0.5);
+	}
+
+.image-container{
+	margin: 20px auto;
+	width: 800px;
+	height: 300px;
+	border: 2px solid #333;
+	border-radius: 15px;
+	overflow:hidden;
 }
+.image-content {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+
+	}
+.blog-post {
+	width: 90%;
+	padding: 30px;
+	margin: 30px;
+	justify-content: center;
+	border: 3px solid #333;
+	border-radius: 5px;
+	}
+.blog-title {
+	text-align: center;
+	}
